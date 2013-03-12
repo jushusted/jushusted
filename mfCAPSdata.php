@@ -8,7 +8,7 @@
   <div>
     <?php 
     //$capsPage = readfile($_GET['http://api.fool.com/caps/ws/Ticker/GOOG?apikey=ZbhGBKUXVluPZXywfF7yytztBknJdQWr']);
-	  $cspsPage = file_get_contents('http://api.fool.com/caps/ws/Ticker/GOOG?apikey=ZbhGBKUXVluPZXywfF7yytztBknJdQWr'])
+	  $capsPage = file_get_contents('http://api.fool.com/caps/ws/Ticker/GOOG?apikey=ZbhGBKUXVluPZXywfF7yytztBknJdQWr'])
 	  echo $capsPage; ?>
   </div>
 	<div>
